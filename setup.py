@@ -17,7 +17,7 @@ setup(
     version='2.0.0',
     description='Robot Framework Library For Working With PostgreSQL Database.',
     long_description=long_description,
-    url='https://github.com/peterservice-rnd/robotframework-postgresqldb',
+    url='https://github.com/worachai3/robotframework-postgresqldb',
     author='Nexign',
     author_email='mf_aist_all@nexign-systems.com',
     license='Apache License 2.0',
@@ -35,7 +35,7 @@ setup(
     py_modules=['PostgreSQLDB'],
     install_requires=[
         "robotframework",
-        "psycopg2"
+        "psycopg2-binary"
     ],
     extras_require={
         ':python_version<="2.7"': [
